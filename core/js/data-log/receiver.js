@@ -1,5 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.EventReceiver = void 0;
 var console_wrapper_1 = require("../utils/console_wrapper");
 var event_1 = require("./event");
 console_wrapper_1.log('receiver loaded.', 2 /* BASIC */);

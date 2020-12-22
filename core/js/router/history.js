@@ -1,5 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.History = void 0;
 var tracker_1 = require("./../tracker/tracker");
 function newHistoryEntry(currURL, hasPrevURL, prevEntry, extra) {
     tracker_1.Tracker.getEventDispatchFunc('history')({ url: currURL });

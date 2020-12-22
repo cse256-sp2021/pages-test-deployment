@@ -36,6 +36,7 @@ var __generator = (this && this.__generator) || function (thisArg, body) {
     }
 };
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.SubmitForm = void 0;
 var funcs_1 = require("../utils/funcs");
 var mturk_1 = require("./../aws/mturk");
 var data_1 = require("./../data-log/data");

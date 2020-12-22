@@ -1,5 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.IDGenerator = void 0;
 var elements_1 = require("../dom/elements");
 var document_1 = require("./../dom/document");
 var console_wrapper_1 = require("./console_wrapper");
@@ -13,7 +14,7 @@ var IDGenerator = /** @class */ (function () {
             IDGenerator.idCount += 1;
             return IDGenerator.prefix + IDGenerator.idCount;
         },
-        enumerable: true,
+        enumerable: false,
         configurable: true
     });
     IDGenerator.applyID = function (elem) { elem.id = elem.id ? elem.id : IDGenerator.next; };

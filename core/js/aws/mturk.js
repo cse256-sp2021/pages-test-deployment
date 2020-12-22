@@ -36,6 +36,7 @@ var __generator = (this && this.__generator) || function (thisArg, body) {
     }
 };
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.MturkClient = void 0;
 var console_wrapper_1 = require("../utils/console_wrapper");
 var cognito_1 = require("./cognito");
 var s3_1 = require("./s3");

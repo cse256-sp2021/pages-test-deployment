@@ -4,12 +4,15 @@
     "description": "Core code used by all CSE-256 in browser web scripts.",
     "main": "core.js",
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "tsc": "tsc",
+        "build": "tsc"
     },
     "author": "Riley McCuen",
     "license": "ISC",
     "dependencies": {
-        "aws-sdk": "^2.596.0"
+        "aws-sdk": "^2.596.0",
+        "typescript": "^3.7.4"
     },
     "devDependencies": {
         "@types/node": "^13.1.0"

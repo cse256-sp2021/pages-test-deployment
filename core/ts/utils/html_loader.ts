@@ -10,6 +10,7 @@ export class HTMLLoader {
     }
 
     public static load(html: string, elem: Element | string) {
+        html = "/pages-test-deployment" + html;
         return new Promise<boolean>((resolve, reject) => {
             try {
                 log('begin load', DebugLevelEnum.DETAILED);

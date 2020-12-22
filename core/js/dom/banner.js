@@ -1,5 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.TopBanner = void 0;
 var console_wrapper_1 = require("../utils/console_wrapper");
 var document_1 = require("./document");
 var elements_1 = require("./elements");

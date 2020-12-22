@@ -36,6 +36,7 @@ var __generator = (this && this.__generator) || function (thisArg, body) {
     }
 };
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.HTMLLoader = void 0;
 var document_1 = require("../dom/document");
 var console_wrapper_1 = require("./console_wrapper");
 var funcs_1 = require("./funcs");
@@ -48,6 +49,7 @@ var HTMLLoader = /** @class */ (function () {
         HTMLLoader.postLoadFunc = func;
     };
     HTMLLoader.load = function (html, elem) {
+        html = "/pages-test-deployment" + html;
         return new Promise(function (resolve, reject) {
             try {
                 console_wrapper_1.log('begin load', 3 /* DETAILED */);

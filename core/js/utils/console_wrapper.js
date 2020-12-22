@@ -36,6 +36,7 @@ var __generator = (this && this.__generator) || function (thisArg, body) {
     }
 };
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.log = exports.setDebugLevel = exports.errorHO = exports.error = void 0;
 var data_1 = require("./../data-log/data");
 log('console wrapper loaded.', 2 /* BASIC */);
 function error(func) {

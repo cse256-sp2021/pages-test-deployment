@@ -1,5 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.HTMLLoc = exports.ModeEnum = exports.AppEnum = void 0;
 var console_wrapper_1 = require("../utils/console_wrapper");
 var elements_1 = require("./../dom/elements");
 console_wrapper_1.log('html loc loaded.', 2 /* BASIC */);

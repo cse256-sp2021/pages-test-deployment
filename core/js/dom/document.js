@@ -1,5 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.D = void 0;
 var console_wrapper_1 = require("./../utils/console_wrapper");
 console_wrapper_1.log('document loaded.', 2 /* BASIC */);
 var D = /** @class */ (function () {

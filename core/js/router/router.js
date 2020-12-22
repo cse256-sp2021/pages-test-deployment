@@ -47,6 +47,7 @@ var __values = (this && this.__values) || function(o) {
     throw new TypeError(s ? "Object is not iterable." : "Symbol.iterator is not defined.");
 };
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.Router = void 0;
 var document_1 = require("./../dom/document");
 var elements_1 = require("./../dom/elements");
 var console_wrapper_1 = require("./../utils/console_wrapper");

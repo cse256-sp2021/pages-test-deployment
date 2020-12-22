@@ -1,5 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.CustomTimeout = void 0;
 var console_wrapper_1 = require("./console_wrapper");
 var funcs_1 = require("./funcs");
 console_wrapper_1.log('timer loaded', 3 /* DETAILED */);

@@ -1,5 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.Scroll = void 0;
 var console_wrapper_1 = require("../utils/console_wrapper");
 var funcs_1 = require("./../utils/funcs");
 console_wrapper_1.log('scroll loaded.', 2 /* BASIC */);
@@ -55,7 +56,7 @@ var Scroll = /** @class */ (function () {
         get: function () {
             return Scroll.running;
         },
-        enumerable: true,
+        enumerable: false,
         configurable: true
     });
     Scroll.prototype.update = function (endPos, duration, complete) {

@@ -1,5 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.waitUntilReady = exports.isReady = void 0;
 var console_wrapper_1 = require("./console_wrapper");
 console_wrapper_1.log('ready loaded', 2 /* BASIC */);
 var ready = false;

@@ -1,5 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.Tracker = void 0;
 var event_1 = require("../data-log/event");
 var receiver_1 = require("../data-log/receiver");
 var tracker_elems_1 = require("../dom/tracker_elems");

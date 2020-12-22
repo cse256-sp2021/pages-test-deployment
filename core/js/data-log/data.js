@@ -1,5 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.data = exports.Data = exports.urlData = void 0;
 console.log('data loaded.');
 var urlParams = new URLSearchParams(window.location.search);
 exports.urlData = {

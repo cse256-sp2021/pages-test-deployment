@@ -13,6 +13,7 @@ var __extends = (this && this.__extends) || (function () {
     };
 })();
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.HistoryEvent = exports.ButtonEvent = exports.ClickEvent = exports.BaseTrackerEvent = exports.isTrackerEvent = exports.objectToTrackerEvent = void 0;
 var console_wrapper_1 = require("../utils/console_wrapper");
 var funcs_1 = require("../utils/funcs");
 console_wrapper_1.log('event loaded.', 2 /* BASIC */);
@@ -33,7 +34,7 @@ var BaseTrackerEvent = /** @class */ (function () {
     }
     Object.defineProperty(BaseTrackerEvent.prototype, "detail", {
         get: function () { return this.custEv.detail; },
-        enumerable: true,
+        enumerable: false,
         configurable: true
     });
     return BaseTrackerEvent;
