@@ -4,7 +4,9 @@
     "description": "Information Foraging project for CSE 256 in the form of WUSTL's Nursery School website.",
     "main": "./scripts/js/app.js",
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build": "./node_modules/.bin/browserify ./scripts/ts/dynamic-dom/dynamic-dom.ts ./scripts/ts/tracker/tracker.ts --debug -p tsify -o ./scripts/js/app.js",
+        "watch": "./node_modules/.bin/watchify --debug ./scripts/ts/dynamic-dom/dynamic-dom.ts ./scripts/ts/tracker/tracker.ts -p tsify -v -o ./scripts/js/app.js"
     },
     "author": "Riley McCuen",
     "license": "ISC",
