@@ -1,0 +1,17 @@
+{
+    "name": "core",
+    "version": "1.0.0",
+    "description": "Core code used by all CSE-256 in browser web scripts.",
+    "main": "core.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Riley McCuen",
+    "license": "ISC",
+    "dependencies": {
+        "aws-sdk": "^2.596.0"
+    },
+    "devDependencies": {
+        "@types/node": "^13.1.0"
+    }
+}

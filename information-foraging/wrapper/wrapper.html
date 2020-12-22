@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta content="ie=edge" http-equiv="X-UA-Compatible" />
+    <title>
+        MTurk
+    </title>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" />
+    <link href="/information-foraging/wrapper/tracker.css" rel="stylesheet" />
+</head>
+
+<body>
+    <div id="inner-body">
+        <div id="mturk-top-banner">
+            <span id="mturk-top-banner-span-outer">
+                    <span id="mturk-top-banner-span">
+                        <div class="top-banner-div" id="mturk-top-banner-back-div">
+                            <button class="mturk-top-banner-back-woh mturk-top-banner-button" id="mturk-top-banner-back">
+                                Back
+                            </button>
+                        </div>
+                        <p id="mturk-top-banner-text">
+                            Your son is a student in the  . . .
+                        </p>
+                        <span id="mturk-top-banner-inner-span">
+                            <span class="mturk-top-banner-button mturk-top-banner-back-wh" id="mturk-top-banner-arrow">
+                                <i class="fa fa-chevron-down" id="mturk-top-banner-drop-down-button" style="display: none;">
+                                </i>
+                                <i class="fa fa-chevron-up" id="mturk-top-banner-collapse-button">
+                                </i>
+                            </span>
+            </span>
+            </span>
+            </span>
+            <div id="mturk-top-banner-drop-down-content">
+                <p id="scenario_context">
+                    Your son is a student in the Panda Bear classroom and has come home this week singing a song in Spanish. You think he has the words slightly wrong, but your Spanish is a little bit rusty.
+                </p>
+                <br/>
+                <strong id="scenario_question">
+                        Find the lyrics for the songs his class is currently singing in Spanish.
+                    </strong>
+                <br>
+                <br/>
+                <form action="https://workersandbox.mturk.com/mturk/externalSubmit" id="mturk-submit-form" method="POST">
+                    <input id="assignment-id" name="assignmentId" type="hidden" />
+                    <input id="hit-id" name="hitId" type="hidden" />
+                    <textarea cols="80" name="task-response" rows="5" id="text-area"></textarea>
+                    <input id="debug" name="debug" type="hidden" value="_0_0_" />
+                    <input id="cognito" name="cognito" type="hidden" value="" />
+                    <br />
+                    <br />
+                    <button class="top-banner-button" id="submit-json-data" type="submit">
+                                Submit
+                            </button>
+                </form>
+                </br>
+                <br/>
+                <br/>
+                <div>
+                    <input type="checkbox" class="top-banner-button" name="page-has-info" id="top-banner-checkbox" />
+                    <label for="page-has-info"> Check this box if this page contains information that answers the question. </label>
+                </div>
+            </div>
+        </div>
+        <div id="wrapper">
+            <div data-app="nursery-school" data-mode="tracker" data-page="/information-foraging/html/index.html" id="html-loc">
+            </div>
+        </div>
+    </div>
+    <script id="256-script-bundle" src="/information-foraging/scripts/js/app.js">
+    </script>
+</body>
+
+</html>

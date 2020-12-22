@@ -1,0 +1,1 @@
+{"version":3,"file":"receiver.d.ts","sourceRoot":"","sources":["../../ts/data-log/receiver.ts"],"names":[],"mappings":"AACA,OAAO,EAAkB,YAAY,EAAE,MAAM,SAAS,CAAC;AAEvD,qBAAa,aAAa;IAEtB,OAAO,CAAC,GAAG,CAAoD;IAC/D,OAAO,CAAC,OAAO,CAAqB;IAE7B,QAAQ,CAAC,SAAS,EAAE,MAAM,EAAE,QAAQ,CAAC,EAAE,CAAC,KAAK,EAAE,YAAY,KAAK,IAAI;IAQpE,OAAO,CAAC,KAAK,EAAE,YAAY;CAKrC"}
